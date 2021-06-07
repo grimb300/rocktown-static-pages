@@ -1,0 +1,257 @@
+/* Pantone 282 */
+.pantone-282,
+.rt-blue {
+  color: #0f182a;
+}
+.pantone-5473,
+.rt-teal {
+  color: #185258;
+  color: #5e898c;
+  color: #9db6b6;
+  color: #d2dedb;
+  color: #f5f7f6;
+}
+.pantone-172,
+.rt-orange {
+  color: #de472c;
+}
+.bg-orange {
+  background-color: #de472c;
+}
+.bg-green {
+  background-color: #185258;
+}
+.bg-blue {
+  background-color: #25476c;
+}
+.bg-darkblue {
+  background-color: #0f182a;
+}
+.pantone-619,
+.rt-mustard {
+  color: #958937;
+}
+.navbar-brand {
+  /* max-width: 250px; */
+  margin: 1.2rem 0;
+  margin-left: -1px;
+}
+/* ul.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block;
+} */
+/* .sanavbar {
+  overflow: hidden;
+}
+
+.sanavbar a {
+  font-size: 18px;
+  color: white;
+  text-align: left;
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* .subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnavbtn,
+.subnav > a {
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 13px 20px;
+  background-color: inherit;
+  margin: 0;
+} */
+.member-access {
+  background: #de472c;
+  text-transform: uppercase;
+  width: auto;
+  padding: 0px;
+  font-weight: 800;
+}
+.member-access a {
+  padding: 12px 24px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  line-height: 15px;
+}
+/* @media (min-width: 358px) {
+  .subnavbtn {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+@media (min-width: 450px) {
+  .subnavbtn {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 576px) {
+}
+.navwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .navwrapper {
+    justify-content: flex-start;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .navwrapper {
+    max-width: 1140px;
+  }
+}
+
+.subnavbtn i {
+  padding-left: 5px;
+} */
+
+/* Show the dropdown menu on hover */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.sanavbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: #fff;
+  color: #185258;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.mecontainer {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subnav-content {
+  background: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.subnav-content a {
+  color: #185258;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.subnav-content a:hover {
+  background-color: #de472c;
+  color: white;
+}
+
+/* Hero - image text overlay */
+#page-top .intro-heading {
+  font-size: 44px;
+  margin-bottom: 0;
+}
+#header,
+.masthead {
+  margin-bottom: 2rem;
+}
+@media (min-width: 450px) {
+  #page-top .intro-heading {
+    font-size: 50px;
+  }
+}
+
+/* Donate Now Button */
+.header-donate-btn {
+  text-transform: uppercase;
+  background: #185258;
+  font-size: 18px;
+  padding: 10px 20px 7px;
+  margin-bottom: 3rem;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.header-donate-btn:hover,
+.header-donate-btn:focus,
+.header-donate-btn:active {
+  background: #de472c;
+}
+
+/* FOOTER AREA */
+/* new CB */
+.text-micro {
+  font-size: 14px;
+}
+.footer-divider {
+  height: 40px;
+}
+.footerAreame {
+  width: 100%;
+  background-color: #ffffff;
+
+  border-top-style: solid;
+  border-top-color: #000000;
+  border-top-width: 4px;
+}
+
+.footerArea .mecontainer {
+  background-image: url(/agency/sa/images/footer_bkgd.jpg);
+}
+
+.copyrights {
+  padding-left: 40px;
+  padding-top: 12px;
+  color: #666666;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+/* BANNER AREA */
+.bannerArea {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+}
+
+.bannerArea .mecontainer {
+  height: 120px;
+  background-image: url(/agency/sa/images/banner_bkgd.jpg);
+  background-repeat: no-repeat;
+}
+
+.bannernav {
+  padding-top: 20px;
+  float: right;
+  color: #112c4c;
+  font-size: 12px;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.bannernav a {
+  color: #00f;
+  text-decoration: none;
+}
+.bannernav a:visited {
+  color: #666;
+}
+.bannernav a:hover {
+  color: #25476c;
+  text-decoration: none;
+}
